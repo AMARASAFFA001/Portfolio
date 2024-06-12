@@ -93,7 +93,7 @@ header{
 
 section{
 	width: 100%;
-	padding: 100px 18%;
+	padding: 100px 30%;
 }
 .home{
 	min-height: 100vh;
@@ -288,6 +288,9 @@ header.sticky{
 
   img{
 	transition: all .45s ease;
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
   }
 
   img:hover{
@@ -320,7 +323,7 @@ header.sticky{
 .col img{
 	max-width: 100%;
 	width: 550px;
-	height: auto;
+	height: 600px;
 	object-fit: cover;
 	border-radius: 12px;
 }
@@ -515,15 +518,15 @@ header.sticky{
 
 @media (max-width: 1425px){
 	header{
-		padding: 16px 3%;
+		padding: 16px 10%;
 		transition: .3s;
 	}
 	header.sticky{
-		padding: 10px 3%;
+		padding: 10px 10%;
 		transition: .3s;
 	}
 	section{
-		padding: 70px 3%;
+		padding: 70px 10%;
 		transition: .3s;
 	}
 	.contact{
@@ -628,6 +631,7 @@ header.sticky{
 
 	  article img, article.featured img {
 		width: 100%;
+		
 		
 	  }
 
